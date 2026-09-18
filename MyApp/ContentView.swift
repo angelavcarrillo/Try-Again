@@ -5,6 +5,9 @@ struct ContentView: View {
     var body: some View {
         Text("Help!")
             .padding()
+        Circle()
+            .fill(Color.blue)
+            .frame(width:50, height:50)
     }
 }
 
